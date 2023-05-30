@@ -10,7 +10,7 @@
 
 // int num=Convert.ToInt32(Console.ReadLine());
 
-// if ((num>99)&&(num<1000));
+// if ((num>99)&&(num<1000))
 // {
 //    int num3=(num/10)%10; 
 //    Console.WriteLine(num3);
@@ -35,25 +35,26 @@
 
 
 
-// Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
+// _________________--Задача 15--____________ 
+//Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
 // 6 -> да
 // 7 -> да
 // 1 -> нет
 
-Console.WriteLine("Введите число");
-int num=Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите число");
+// int num=Convert.ToInt32(Console.ReadLine());
 
-if (num<1||num>7)
-{
-   Console.WriteLine("Такого дня недели нет");
-}
+// if (num<1||num>7)
+// {
+//    Console.WriteLine("Такого дня недели нет");
+// }
 
-else if (num==6||num==7)
-{
-   Console.WriteLine("Выходной"); 
-}
+// else if (num==6||num==7)
+// {
+//    Console.WriteLine("Выходной"); 
+// }
 
-else
-{
-   Console.WriteLine("Будний день"); 
-}
+// else
+// {
+//    Console.WriteLine("Будний день"); 
+// }
