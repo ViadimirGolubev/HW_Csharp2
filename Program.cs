@@ -42,12 +42,13 @@
 
 Console.WriteLine("Введите число");
 int num=Convert.ToInt32(Console.ReadLine());
-if (num<1||num>7);
+
+if (num<1||num>7)
 {
    Console.WriteLine("Такого дня недели нет");
 }
 
-else if (num==6||num==7);
+else if (num==6||num==7)
 {
    Console.WriteLine("Выходной"); 
 }
